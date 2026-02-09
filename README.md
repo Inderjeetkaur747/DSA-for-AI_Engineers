@@ -2,212 +2,135 @@
 
 A **practical, interview-focused DSA roadmap** designed specifically for **AI / ML Engineers**.
 
-This repository bridges the gap between **theoretical DSA** and **real-world AI engineering needs**, with curated problems, patterns, and Python-first implementations.
 
----
+PHASE 1 — LINEAR DATA PATTERNS (Highest ROI)
 
-## Why DSA for AI Engineers?
+👉 70% of interview questions start here
 
-AI Engineers are expected to:
+1. Arrays & Hashing
 
-* Write **clean, optimized Python code**
-* Understand **time & space trade-offs**
-* Solve **DSA-style interview problems** (often mixed with ML concepts)
-* Design **scalable systems** for data & models
+Patterns inside this:
 
-This repo focuses on **what actually matters** — no unnecessary theory, only **high-yield patterns**.
+Frequency counting
 
----
+Prefix sum
 
-## What You’ll Learn
+Index mapping
 
-* Core DSA concepts with **AI interview perspective**
-* Pythonic implementations (readable & efficient)
-* Problem-solving patterns used in **FAANG / Big Tech / AI startups**
-* How DSA connects to **ML pipelines, data processing, and MLOps**
+In-place modification
 
----
+AI relevance: feature counts, vocab mapping, data preprocessing
 
-##  Roadmap
+2. Two Pointers
 
-### Phase 0: Python for DSA (Must-Know)
+Patterns inside this:
 
-* Lists, Tuples, Sets, Dictionaries
-* List Comprehensions
-* `collections` (Counter, defaultdict, deque)
-* `heapq`, `bisect`
-* Writing clean & readable functions
+Opposite direction pointers
 
----
+Fast/slow pointers
 
-### Phase 1: Arrays & Strings (High Frequency)
+Partition logic
 
-**Patterns:**
+AI relevance: deduplication, streaming data cleanup
 
-* Two Pointers
-* Sliding Window
-* Prefix Sum
-* Hashing
+3. Sliding Window
 
-**Use cases in AI:**
+Patterns inside this:
 
-* Feature preprocessing
-* Log analysis
-* Token/window-based operations
+Fixed window
 
----
+Variable window
 
-### Phase 2: Recursion & Backtracking
+At-most / exactly-k trick
 
-* Recursion fundamentals
-* Subsets / Permutations / Combinations
-* Decision trees
+AI relevance: time-based logs, rolling metrics, sequence modeling prep
 
-**AI Connection:**
+PHASE 2 — STRUCTURAL THINKING
 
-* Tree traversal logic
-* Search space exploration
+Where interview difficulty jumps
 
----
+4. Stack & Monotonic Stack
 
-### Phase 3: Linked List
+Patterns inside this:
 
-* Singly & Doubly Linked List
-* Fast & Slow Pointer
-* Cycle detection
+Next greater/smaller
 
-**Why AI Engineers care:**
+Expression evaluation
 
-* Memory-efficient data traversal
-* Understanding pointer logic for systems interviews
+Span problems
 
----
+5. Binary Search (Advanced)
 
-### Phase 4: Stack & Queue
+Patterns inside this:
 
-* Stack operations
-* Monotonic Stack
-* Queue & Deque
+Search on answer
 
-**AI Connection:**
+Lower/upper bound
 
-* Expression parsing
-* Streaming data
-* BFS-style workflows
+Rotated arrays
 
----
+This is where “expert” level shows.
 
-### Phase 5: Trees (Very Important)
+PHASE 3 — POINTER & TREE RECURSION
 
-* Binary Tree
-* Binary Search Tree
-* Tree Traversals (DFS/BFS)
-* Lowest Common Ancestor
+Tests depth of thinking
 
-**AI Connection:**
+6. Linked Lists
 
-* Decision Trees
-* Feature splits
-* Model explainability logic
+Cycle detection
 
----
+Reversal patterns
 
-### Phase 6: Heaps & Priority Queue
+7. Trees (DFS/BFS)
 
-* Min Heap / Max Heap
-* Top-K problems
-* Streaming data
+Patterns inside this:
 
-**AI Use Cases:**
+Top-down vs bottom-up
 
-* Top-K predictions
-* Recommendation systems
-* Model output ranking
+Path problems
 
----
+Level traversal
 
-### Phase 7: Graphs
+AI relevance: decision trees, hierarchical data
 
-* BFS / DFS
-* Topological Sort
-* Union Find
-* Shortest Path
+PHASE 4 — PRIORITY & CONNECTIVITY
 
-**AI Connection:**
+ Real-world systems style questions
 
-* Knowledge graphs
-* Dependency resolution
-* Pipeline DAGs (Airflow / ML workflows)
+8. Heap / Priority Queue
 
----
+Top-K
 
-### Phase 8: Dynamic Programming (Interview Killer)
+Streaming median
 
-* 1D DP
-* 2D DP
-* Knapsack patterns
-* Optimization DP
+9. Graphs
 
-**AI Connection:**
+Patterns inside this:
 
-* Sequence modeling intuition
-* Optimization thinking
+BFS / DFS
 
----
+Union-Find
 
-### Phase 9: Searching & Sorting
+Topological sort
 
-* Binary Search (Patterns)
-* Sorting algorithms
+AI relevance: knowledge graphs, dependency systems
 
-**AI Use Cases:**
+PHASE 5 — DYNAMIC PROGRAMMING (Interview-Safe Mastery)
 
-* Hyperparameter search intuition
-* Efficient data lookup
+Not “all DP”, only useful DP.
 
----
+10. DP Patterns
 
-## Problem Practice Strategy
+1D DP
 
-For **each topic**:
+2D DP
 
-1. Understand the **pattern**
-2. Solve **Easy → Medium → Hard**
-3. Write clean Python code
-4. Analyze **Time & Space Complexity**
-5. Relate it to **real AI use cases**
+State compression
 
----
+Knapsack-style thinking
 
-## Interview Preparation Tips
+Goal: recognize DP, not fear it.
 
-* Always **clarify constraints**
-* Talk through your approach
-* Optimize only when required
-* Use **Pythonic constructs** wisely
-* Relate solutions to **real systems** when possible
-
----
-
-## LeetCode Practice (Suggested)
-
-Each topic includes curated LeetCode problems:
-
-* Easy (Concept clarity)
-* Medium (Interview standard)
-* Hard (Confidence booster)
-
-> Links will be added topic-wise inside folders
-
----
-
-## Tech Stack
-
-* Language: **Python 3**
-* Platform: **LeetCode**
-* Focus: **AI / ML Interviews**
-
----
 
 ##  Who Should Use This Repo?
 
