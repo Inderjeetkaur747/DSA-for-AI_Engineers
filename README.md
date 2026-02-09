@@ -220,7 +220,7 @@ Each topic includes curated LeetCode problems:
 
 ## Final Goal
 
-> Become **DSA-strong AI Engineer** who can:
+Become **DSA-strong AI Engineer** who can:
 
 * Crack interviews confidently
 * Write optimized production-level code
@@ -230,4 +230,4 @@ Each topic includes curated LeetCode problems:
 
 ### If this repo helps you, give it a star!
 
-Happy Coding 🚀
+Happy Coding 
