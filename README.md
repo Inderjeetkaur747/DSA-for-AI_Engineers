@@ -5,7 +5,7 @@ A **practical, interview-focused DSA roadmap** designed specifically for **AI / 
 
 PHASE 1 — LINEAR DATA PATTERNS (Highest ROI)
 
-👉 70% of interview questions start here
+70% of interview questions start here
 
 1. Arrays & Hashing
 
